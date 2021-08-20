@@ -1,5 +1,7 @@
 import Head from "next/head";
 import Post from "../components/Post/Post";
+import PostForm from "../components/PostForm/PostForm";
+
 import styles from "../styles/Home.module.scss";
 
 const DUMMY_POST = {
@@ -32,10 +34,7 @@ export default function Home() {
           </li>
         </ul>
 
-        <form>
-          <textarea className={styles.formContent}></textarea>
-          <button className={styles.formButton}>Add New Post</button>
-        </form>
+        <PostForm />
       </main>
     </div>
   );
