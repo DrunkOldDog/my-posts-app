@@ -9,7 +9,7 @@ const DUMMY_POST = {
 };
 
 export default {
-  title: "Example/Post",
+  title: "Components/Post",
   component: Post,
 };
 
