@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Bio from "../components/Bio";
 import Post from "../components/Post/Post";
 import PostForm from "../components/PostForm/PostForm";
 
@@ -20,7 +21,14 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>My Posts</h1>
+        <Bio
+          headshot={
+            "https://pbs.twimg.com/profile_images/1402813219404718084/Bz7PAiAK_400x400.jpg"
+          }
+          name={"Juani Reyes"}
+          tagline={"Hey, just trying new tools!"}
+          role={"Frontend Developer @Dreamcode.io"}
+        />
 
         <ul className={styles.posts}>
           <li>
