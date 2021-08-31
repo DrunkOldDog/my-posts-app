@@ -5,7 +5,7 @@ export default function Bio({ headshot, name, tagline, role }) {
     <div className={styles.bio}>
       <div className={styles.bioImage}>
         {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img src={headshot} alt={`Headshot of ${name}`} />
+        <img src={""} alt={`Headshot of ${name}`} />
       </div>
       <div className={styles.bioContent}>
         <p className={styles.bioContentName}>{name}</p>
